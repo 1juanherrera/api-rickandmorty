@@ -33,6 +33,7 @@ function App() {
   return (
     <div>
       <h1>Rick and Morty</h1>
+      
       <form onSubmit={(e) => searchCharacter(e)}>
         <input type="text" placeholder='Buscar por nombre' />
         <button type='submit'>Buscar</button>

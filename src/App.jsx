@@ -31,7 +31,7 @@ function App() {
   
 
   return (
-    <div>
+    <div className='App'>
       <h1>Rick and Morty</h1>
       
       <form onSubmit={(e) => searchCharacter(e)}>
